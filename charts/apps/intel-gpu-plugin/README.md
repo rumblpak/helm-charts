@@ -101,7 +101,7 @@ affinity:
 
 ## Changelog
 
-### Version 4.4.3
+### Version 4.5.1
 
 #### Added
 
