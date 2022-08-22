@@ -11,9 +11,9 @@ on:
         required: false
         type: string
     secrets:
-      BJWS_APP_ID:
+      RUMBLPAK_APP_ID:
         required: true
-      BJWS_APP_PRIVATE_KEY:
+      RUMBLPAK_APP_PRIVATE_KEY:
         required: true
 
 env:
@@ -28,8 +28,8 @@ jobs:
         id: get-app-token
         uses: getsentry/action-github-app-token@v1
         with:
-          app_id: ${{ secrets.BJWS_APP_ID }}
-          private_key: ${{ secrets.BJWS_APP_PRIVATE_KEY }}
+          app_id: ${{ secrets.RUMBLPAK_APP_ID }}
+          private_key: ${{ secrets.RUMBLPAK_APP_PRIVATE_KEY }}
 
       - name: Checkout charts branch
         uses: actions/checkout@v3
@@ -79,8 +79,8 @@ jobs:
         shell: bash
         working-directory: dest
         run: |
-          git config user.name "bjw-s-bot[bot]"
-          git config user.email "bjw-s-bot <87358111+bjw-s-bot[bot]@users.noreply.github.com>"
+          git config user.name "rumblpak-bot[bot]"
+          git config user.email "rumblpak@gmail.com"
           git add $(git ls-files -o --exclude-standard)
           git add index.yaml
           git commit -m "Updated from ref: $GITHUB_SHA"
