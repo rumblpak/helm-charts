@@ -7,7 +7,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v0.107.7
-    created: "2022-08-22T04:08:49.773327828Z"
+    created: "2022-08-22T04:16:02.557540359Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -36,7 +36,7 @@ entries:
         - kind: added
           description: Automatically set `global.nameOverride` to release name
     apiVersion: v2
-    created: "2022-08-22T04:08:49.829616402Z"
+    created: "2022-08-22T04:16:02.604945265Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -56,7 +56,7 @@ entries:
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T04:08:49.82647967Z"
+    created: "2022-08-22T04:16:02.602485697Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -78,7 +78,7 @@ entries:
           description: Upgraded appVersion to 6.3.0.
     apiVersion: v2
     appVersion: version-v6.3.0
-    created: "2022-08-22T04:08:49.781168708Z"
+    created: "2022-08-22T04:16:02.563252616Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -106,7 +106,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: version-v5.21.0
-    created: "2022-08-22T04:08:49.777279568Z"
+    created: "2022-08-22T04:16:02.560540541Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -134,7 +134,7 @@ entries:
         - kind: changed
           description: Initial version
     apiVersion: v2
-    created: "2022-08-22T04:08:49.823665942Z"
+    created: "2022-08-22T04:16:02.60003023Z"
     description: Function library for Helm charts
     digest: f5a30aa881582b34727862cb71b3afe7cfd6ce4ee1bb4c750355cbb569b5e06f
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -156,7 +156,7 @@ entries:
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T04:08:49.832458831Z"
+    created: "2022-08-22T04:16:02.607362432Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -178,7 +178,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 2022.5.4
-    created: "2022-08-22T04:08:49.799727697Z"
+    created: "2022-08-22T04:16:02.578597239Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -222,7 +222,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v22.07.2
-    created: "2022-08-22T04:08:49.804204143Z"
+    created: "2022-08-22T04:16:02.581280913Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -246,10 +246,42 @@ entries:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
+          description: Upgraded appVersion to 0.24.0
+    apiVersion: v2
+    appVersion: 0.24.0
+    created: "2022-08-22T04:16:02.588600915Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: The Intel GPU plugin facilitates offloading the processing of computation
+      intensive workloads to GPU hardware
+    digest: b49933808896f2f7f032fbbd158e83b30ab7c0ade97846394618f06f7ddb26ec
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/intel-gpu-plugin
+    icon: https://avatars0.githubusercontent.com/u/17888862?s=400&v=4
+    keywords:
+    - kubernetes
+    - cluster
+    - hardware
+    - gpu
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    - email: me@bjw-s.dev
+      name: bjw-s
+    name: intel-gpu-plugin
+    sources:
+    - https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/gpu_plugin
+    urls:
+    - https://rumblpak.github.io/helm-charts/apps/intel-gpu-plugin-4.5.0.tgz
+    version: 4.5.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 0.20.0
-    created: "2022-08-22T04:08:49.807486576Z"
+    created: "2022-08-22T04:16:02.585819338Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -282,7 +314,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v4.4.2
-    created: "2022-08-22T04:08:49.810868211Z"
+    created: "2022-08-22T04:16:02.591420692Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -312,7 +344,7 @@ entries:
           description: Bumped appVersion to 4.3
     apiVersion: v2
     appVersion: "4.3"
-    created: "2022-08-22T04:08:49.820809112Z"
+    created: "2022-08-22T04:16:02.597538761Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -340,7 +372,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: "4.2"
-    created: "2022-08-22T04:08:49.814125644Z"
+    created: "2022-08-22T04:16:02.594142067Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -362,4 +394,4 @@ entries:
     urls:
     - https://rumblpak.github.io/helm-charts/apps/youtubedl-material-4.4.2.tgz
     version: 4.4.2
-generated: "2022-08-22T04:08:49.768395577Z"
+generated: "2022-08-22T04:16:02.552453519Z"
