@@ -7,7 +7,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v0.107.7
-    created: "2022-08-22T01:22:14.679827004Z"
+    created: "2022-08-22T03:38:10.887060766Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -28,7 +28,7 @@ entries:
     sources:
     - https://github.com/AdguardTeam/AdGuardHome
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/adguard-home-5.5.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/adguard-home-5.5.2.tgz
     version: 5.5.2
   app-template:
   - annotations:
@@ -36,7 +36,7 @@ entries:
         - kind: added
           description: Automatically set `global.nameOverride` to release name
     apiVersion: v2
-    created: "2022-08-22T01:22:14.727358988Z"
+    created: "2022-08-22T03:38:10.930273741Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -49,14 +49,14 @@ entries:
       name: bjw-s
     name: app-template
     urls:
-    - https://bjw-s.github.io/helm-charts/other/app-template-0.1.1.tgz
+    - https://rumblpak.github.io/helm-charts/other/app-template-0.1.1.tgz
     version: 0.1.1
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T01:22:14.724750083Z"
+    created: "2022-08-22T03:38:10.927790556Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -69,7 +69,7 @@ entries:
       name: bjw-s
     name: app-template
     urls:
-    - https://bjw-s.github.io/helm-charts/other/app-template-0.1.0.tgz
+    - https://rumblpak.github.io/helm-charts/other/app-template-0.1.0.tgz
     version: 0.1.0
   calibre:
   - annotations:
@@ -78,7 +78,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: version-v5.21.0
-    created: "2022-08-22T01:22:14.682833909Z"
+    created: "2022-08-22T03:38:10.890080469Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -98,7 +98,7 @@ entries:
     - https://hub.docker.com/r/linuxserver/calibre/
     - https://github.com/kovidgoyal/calibre/
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/calibre-5.4.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/calibre-5.4.2.tgz
     version: 5.4.2
   common:
   - annotations:
@@ -106,7 +106,7 @@ entries:
         - kind: changed
           description: Initial version
     apiVersion: v2
-    created: "2022-08-22T01:22:14.722098578Z"
+    created: "2022-08-22T03:38:10.925333372Z"
     description: Function library for Helm charts
     digest: f5a30aa881582b34727862cb71b3afe7cfd6ce4ee1bb4c750355cbb569b5e06f
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -120,7 +120,7 @@ entries:
     name: common
     type: library
     urls:
-    - https://bjw-s.github.io/helm-charts/library/common-0.1.0.tgz
+    - https://rumblpak.github.io/helm-charts/library/common-0.1.0.tgz
     version: 0.1.0
   common-chart:
   - annotations:
@@ -128,7 +128,7 @@ entries:
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T01:22:14.729948492Z"
+    created: "2022-08-22T03:38:10.932753925Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -141,7 +141,7 @@ entries:
       name: bjw-s
     name: common-chart
     urls:
-    - https://bjw-s.github.io/helm-charts/other/common-chart-0.1.0.tgz
+    - https://rumblpak.github.io/helm-charts/other/common-chart-0.1.0.tgz
     version: 0.1.0
   home-assistant:
   - annotations:
@@ -150,7 +150,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 2022.5.4
-    created: "2022-08-22T01:22:14.699648739Z"
+    created: "2022-08-22T03:38:10.906743038Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -185,7 +185,7 @@ entries:
     - https://github.com/cdr/code-server
     - https://github.com/k8s-at-home/charts/tree/master/charts/stable/home-assistant
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/home-assistant-13.4.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/home-assistant-13.4.2.tgz
     version: 13.4.2
   homer:
   - annotations:
@@ -194,7 +194,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v22.07.2
-    created: "2022-08-22T01:22:14.709784957Z"
+    created: "2022-08-22T03:38:10.910646071Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -212,7 +212,7 @@ entries:
     sources:
     - https://github.com/bastienwirtz/homer
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/homer-8.0.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/homer-8.0.2.tgz
     version: 8.0.2
   intel-gpu-plugin:
   - annotations:
@@ -221,7 +221,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 0.20.0
-    created: "2022-08-22T01:22:14.712789462Z"
+    created: "2022-08-22T03:38:10.913490068Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -245,7 +245,7 @@ entries:
     sources:
     - https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/gpu_plugin
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/intel-gpu-plugin-4.4.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/intel-gpu-plugin-4.4.2.tgz
     version: 4.4.2
   qbittorrent:
   - annotations:
@@ -254,7 +254,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v4.4.2
-    created: "2022-08-22T01:22:14.715866367Z"
+    created: "2022-08-22T03:38:10.916374366Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -275,16 +275,44 @@ entries:
     - https://github.com/qbittorrent/qBittorrent
     - https://github.com/k8s-at-home/container-images
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/qbittorrent-13.5.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/qbittorrent-13.5.2.tgz
     version: 13.5.2
   youtubedl-material:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Bumped appVersion to 4.3
+    apiVersion: v2
+    appVersion: "4.3"
+    created: "2022-08-22T03:38:10.922416273Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted YouTube downloader built on Material Design
+    digest: c6c6ebc5c57d336a39a1b9da48d365cb8657e3dd4353d89675163fb1ec0e27e4
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/youtubedl-material
+    icon: https://i.imgur.com/IKOlr0N.png
+    keywords:
+    - youtubedl-material
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Patricol
+      url: https://patricol.co/
+    name: youtubedl-material
+    sources:
+    - https://github.com/Tzahi12345/YoutubeDL-Material
+    - https://github.com/k8s-at-home/charts/tree/master/charts/youtubedl-material
+    urls:
+    - https://rumblpak.github.io/helm-charts/apps/youtubedl-material-4.4.3.tgz
+    version: 4.4.3
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: "4.2"
-    created: "2022-08-22T01:22:14.718739673Z"
+    created: "2022-08-22T03:38:10.919144061Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -304,6 +332,6 @@ entries:
     - https://github.com/Tzahi12345/YoutubeDL-Material
     - https://github.com/k8s-at-home/charts/tree/master/charts/youtubedl-material
     urls:
-    - https://bjw-s.github.io/helm-charts/apps/youtubedl-material-4.4.2.tgz
+    - https://rumblpak.github.io/helm-charts/apps/youtubedl-material-4.4.2.tgz
     version: 4.4.2
-generated: "2022-08-22T01:22:14.676156397Z"
+generated: "2022-08-22T03:38:10.883592348Z"
