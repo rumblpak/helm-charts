@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: version-v5.21.0
+appVersion: version-v6.3.0
 description: Calibre is a powerful and easy to use e-book manager.
 name: calibre
-version: 5.4.2
+version: 6.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - calibre
@@ -22,4 +22,4 @@ dependencies:
 annotations:
   artifacthub.io/changes: |-
     - kind: changed
-      description: Upgraded `common` chart dependency to version 4.5.2
+      description: Upgraded appVersion to 6.3.0.
