@@ -1,0 +1,87 @@
+apiVersion: v1
+entries:
+  app-template:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: added
+          description: Automatically set `global.nameOverride` to release name
+    apiVersion: v2
+    created: "2022-08-09T09:00:45.426771919Z"
+    dependencies:
+    - name: common
+      repository: https://rumblpak.github.io/helm-charts
+      version: 0.1.0
+    description: A common powered chart template. This can be useful for small projects
+      that don't have their own chart.
+    digest: 456851353a750f4ead2cc518f637739d76f9f52af5275a3ced736d089abef0c3
+    maintainers:
+    - email: me@rumblpak.dev
+      name: rumblpak
+    name: app-template
+    urls:
+    - https://rumblpak.github.io/helm-charts/other/app-template-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Set `common` chart dependency to version 0.1.0
+    apiVersion: v2
+    created: "2022-08-09T09:00:45.424077744Z"
+    dependencies:
+    - name: common
+      repository: https://rumblpak.github.io/helm-charts
+      version: 0.1.0
+    description: A common powered chart template. This can be useful for small projects
+      that don't have their own chart.
+    digest: 0a9a0ef5704bda8613b3f30315246f57ae764a667ac896e96755b2854c8a0bb2
+    maintainers:
+    - email: me@rumblpak.dev
+      name: rumblpak
+    name: app-template
+    urls:
+    - https://rumblpak.github.io/helm-charts/other/app-template-0.1.0.tgz
+    version: 0.1.0
+  common:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Initial version
+    apiVersion: v2
+    created: "2022-08-09T09:00:45.421375268Z"
+    description: Function library for Helm charts
+    digest: f5a30aa881582b34727862cb71b3afe7cfd6ce4ee1bb4c750355cbb569b5e06f
+    home: https://github.com/rumblpak/helm-charts/tree/main/charts/library/common
+    keywords:
+    - common
+    - library
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: me@rumblpak.dev
+      name: rumblpak
+    name: common
+    type: library
+    urls:
+    - https://rumblpak.github.io/helm-charts/library/common-0.1.0.tgz
+    version: 0.1.0
+  common-chart:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Set `common` chart dependency to version 0.1.0
+    apiVersion: v2
+    created: "2022-08-09T09:00:45.430158088Z"
+    dependencies:
+    - name: common
+      repository: https://rumblpak.github.io/helm-charts
+      version: 0.1.0
+    description: A common powered chart template. This can be useful for small projects
+      that don't have their own chart.
+    digest: 55659580b9e83b9485d6f6f6dba7117501f49f3cc68e5cb6e1d3b4ca8ba6143a
+    maintainers:
+    - email: me@rumblpak.dev
+      name: rumblpak
+    name: common-chart
+    urls:
+    - https://rumblpak.github.io/helm-charts/other/common-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-09T09:00:45.418645793Z"
