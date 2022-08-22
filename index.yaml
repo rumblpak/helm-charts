@@ -7,7 +7,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v0.107.7
-    created: "2022-08-22T15:09:04.191016866Z"
+    created: "2022-08-22T15:19:11.962590792Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -36,7 +36,7 @@ entries:
         - kind: added
           description: Automatically set `global.nameOverride` to release name
     apiVersion: v2
-    created: "2022-08-22T15:09:04.272687431Z"
+    created: "2022-08-22T15:19:12.060481099Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -56,7 +56,7 @@ entries:
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T15:09:04.269513925Z"
+    created: "2022-08-22T15:19:12.057310763Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -78,7 +78,7 @@ entries:
           description: Upgraded appVersion to 6.3.0.
     apiVersion: v2
     appVersion: version-v6.3.0
-    created: "2022-08-22T15:09:04.199127882Z"
+    created: "2022-08-22T15:19:11.96906447Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -106,7 +106,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: version-v5.21.0
-    created: "2022-08-22T15:09:04.194667873Z"
+    created: "2022-08-22T15:19:11.965768828Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -134,7 +134,7 @@ entries:
         - kind: changed
           description: Initial version
     apiVersion: v2
-    created: "2022-08-22T15:09:04.266199618Z"
+    created: "2022-08-22T15:19:12.048216872Z"
     description: Function library for Helm charts
     digest: f5a30aa881582b34727862cb71b3afe7cfd6ce4ee1bb4c750355cbb569b5e06f
     home: https://github.com/bjw-s/helm-charts/tree/main/charts/library/common
@@ -156,7 +156,7 @@ entries:
         - kind: changed
           description: Set `common` chart dependency to version 0.1.0
     apiVersion: v2
-    created: "2022-08-22T15:09:04.275790638Z"
+    created: "2022-08-22T15:19:12.063577832Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
@@ -175,10 +175,53 @@ entries:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
+          description: Upgraded mariadb to `11.2.0`
+    apiVersion: v2
+    appVersion: 2022.5.4
+    created: "2022-08-22T15:19:12.022918685Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.8.0
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.2.0
+    - condition: influxdb.enabled
+      name: influxdb
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.3.12
+    description: Home Assistant
+    digest: 3e9205484d5082ed2233e8b375b5f4e9fc6ae42a5fea879b6841ce189f0c7d0f
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/home-assistant
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    - https://github.com/k8s-at-home/charts/tree/master/charts/stable/home-assistant
+    urls:
+    - https://rumblpak.github.io/helm-charts/apps/home-assistant-13.4.4.tgz
+    version: 13.4.4
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
           description: Upgraded dependencies
     apiVersion: v2
     appVersion: 2022.5.4
-    created: "2022-08-22T15:09:04.239992565Z"
+    created: "2022-08-22T15:19:12.005116619Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -221,7 +264,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 2022.5.4
-    created: "2022-08-22T15:09:04.219598624Z"
+    created: "2022-08-22T15:19:11.987163948Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -265,7 +308,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v22.07.2
-    created: "2022-08-22T15:09:04.243618472Z"
+    created: "2022-08-22T15:19:12.026236627Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -292,7 +335,7 @@ entries:
           description: Upgraded appVersion to 0.24.0
     apiVersion: v2
     appVersion: 0.24.0
-    created: "2022-08-22T15:09:04.250558187Z"
+    created: "2022-08-22T15:19:12.034369977Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -324,7 +367,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: 0.20.0
-    created: "2022-08-22T15:09:04.247022979Z"
+    created: "2022-08-22T15:19:12.02954767Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -357,7 +400,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v4.4.2
-    created: "2022-08-22T15:09:04.254237494Z"
+    created: "2022-08-22T15:19:12.037899929Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -387,7 +430,7 @@ entries:
           description: Bumped appVersion to 4.3
     apiVersion: v2
     appVersion: "4.3"
-    created: "2022-08-22T15:09:04.262905112Z"
+    created: "2022-08-22T15:19:12.044611117Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -415,7 +458,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: "4.2"
-    created: "2022-08-22T15:09:04.257740501Z"
+    created: "2022-08-22T15:19:12.041169669Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -437,4 +480,4 @@ entries:
     urls:
     - https://rumblpak.github.io/helm-charts/apps/youtubedl-material-4.4.2.tgz
     version: 4.4.2
-generated: "2022-08-22T15:09:04.186916558Z"
+generated: "2022-08-22T15:19:11.957067054Z"
