@@ -1,6 +1,6 @@
 # intel-gpu-plugin
 
-![Version: 4.5.0](https://img.shields.io/badge/Version-4.5.0-informational?style=flat-square) ![AppVersion: 0.24.0](https://img.shields.io/badge/AppVersion-0.24.0-informational?style=flat-square)
+![Version: 4.5.1](https://img.shields.io/badge/Version-4.5.1-informational?style=flat-square) ![AppVersion: 0.24.0](https://img.shields.io/badge/AppVersion-0.24.0-informational?style=flat-square)
 
 The Intel GPU plugin facilitates offloading the processing of computation intensive workloads to GPU hardware
 
@@ -16,7 +16,7 @@ The Intel GPU plugin facilitates offloading the processing of computation intens
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+| https://rumblpak.github.io/helm-charts | common | 0.1.1 |
 
 ## TL;DR
 
@@ -101,7 +101,7 @@ affinity:
 
 ## Changelog
 
-### Version 4.4.2
+### Version 4.4.3
 
 #### Added
 
@@ -109,7 +109,7 @@ N/A
 
 #### Changed
 
-* Upgraded appVersion to `0.24.0`.
+* Upgraded common to `0.1.1`.
 
 #### Fixed
 
