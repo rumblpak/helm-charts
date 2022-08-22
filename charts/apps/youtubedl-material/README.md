@@ -1,6 +1,6 @@
 # youtubedl-material
 
-![Version: 4.4.3](https://img.shields.io/badge/Version-4.4.3-informational?style=flat-square) ![AppVersion: 4.3](https://img.shields.io/badge/AppVersion-4.3-informational?style=flat-square)
+![Version: 4.4.4](https://img.shields.io/badge/Version-4.4.4-informational?style=flat-square) ![AppVersion: 4.3](https://img.shields.io/badge/AppVersion-4.3-informational?style=flat-square)
 
 Self-hosted YouTube downloader built on Material Design
 
@@ -19,7 +19,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+| https://rumblpak.github.io/helm-charts | common | 0.1.1 |
 
 ## TL;DR
 
@@ -89,7 +89,7 @@ N/A
 
 ## Changelog
 
-### Version 4.4.3
+### Version 4.4.4
 
 #### Added
 
@@ -97,7 +97,7 @@ N/A
 
 #### Changed
 
-* Upgraded appVersion to `4.3`.
+* Upgraded `common` to `0.1.1`.
 
 #### Fixed
 
