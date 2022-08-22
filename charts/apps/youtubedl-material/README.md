@@ -89,7 +89,7 @@ N/A
 
 ## Changelog
 
-### Version 4.4.2
+### Version 4.4.3
 
 #### Added
 
@@ -97,7 +97,7 @@ N/A
 
 #### Changed
 
-* Upgraded `common` chart dependency to version 4.5.2
+* Upgraded appVersion to `4.3`.
 
 #### Fixed
 
