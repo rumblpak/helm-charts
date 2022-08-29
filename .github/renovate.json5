@@ -5,6 +5,6 @@
   ],
   platform: "github",
   username: "rumblpak-bot[bot]",
-  gitAuthor: "rumblpak@gmail.com",
+  gitAuthor: "rumblpak-bot[bot] <rumblpak@gmail.com>",
   repositories: ["rumblpak/helm-charts"],
 }
