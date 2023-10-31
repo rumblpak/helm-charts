@@ -12,7 +12,7 @@ image:
   # -- image repository
   repository: linuxserver/calibre
   # -- image tag
-  tag: version-v6.3.0
+  tag: version-v6.3.0@sha256:8a0d0480f4f93cba8ebb28079bed65acbf08b14ac5f1f59e179ed43428b20022
   # -- image pull policy
   pullPolicy: IfNotPresent
 
