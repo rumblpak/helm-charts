@@ -14,7 +14,7 @@ initContainers:
 # It does NOT overwrite when the file already exists.
 # @default -- See values.yaml
   copy-configmap:
-    image: busybox@sha256:3fbc632167424a6d997e74f52b878d7cc478225cffac6bc977eedfe51c7f4e79
+    image: busybox@sha256:650fd573e056b679a5110a70aabeb01e26b76e545ec4b9c70a9523f2dfaf18c6
     imagePullPolicy: IfNotPresent
     command:
     - "sh"
