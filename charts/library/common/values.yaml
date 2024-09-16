@@ -522,7 +522,7 @@ addons:
         # -- Specify the Gluetun image
         repository: docker.io/qmcgaw/gluetun
         # -- Specify the Gluetun image tag
-        tag: v3.36.0@sha256:011bea4f0743864d4eda5a569217a6fe18e3a52f5d6df31b4ceb9f7763bfbf6b
+        tag: v3.39.0@sha256:2f011a9aca767af62008d879eefcbc80a8645bd4fd4466ab312cc941cb658ad1
         # -- Specify the Gluetun image pull policy
         pullPolicy: IfNotPresent
 
