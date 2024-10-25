@@ -91,7 +91,7 @@ metrics:
       # -- image repository
       repository: esanchezm/prometheus-qbittorrent-exporter
       # -- image tag
-      tag: v1.5.1@sha256:85e46a6bfdc81016939fa9ea1c48184a1490d1afa29ca9679e47e16cdc0a93ad
+      tag: v1.6.0@sha256:482df65e7f39f2c0a65f32693e6d5f930edf7b244589a60e446ccc5ee6d17211
       # -- image pull policy
       pullPolicy: IfNotPresent
     env:
