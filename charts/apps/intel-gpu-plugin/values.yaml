@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: intel/intel-gpu-plugin
   # -- image tag
-  tag: 0.30.0@sha256:e96c9955e5aced52f215f7eff77f679c4c400a16a42b1f2c0e8ed9ba76cae3c4
+  tag: 0.32.0@sha256:bd1936cb1738388599851145c62769c5a3bdb3928b089dfa2f6fb8804da020bb
   # -- image pull policy
   pullPolicy: IfNotPresent
 
