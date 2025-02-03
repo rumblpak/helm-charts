@@ -23,7 +23,7 @@ dependencies:
     repository: https://rumblpak.github.io/helm-charts
     version: 0.1.1
   - name: postgresql
-    version: 15.5.31
+    version: 16.4.6
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
   - name: mariadb
